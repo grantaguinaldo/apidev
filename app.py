@@ -3,7 +3,6 @@ import json
 import random
 from random import randint
 import uuid
-import requests as r
 
 app = Flask(__name__)
 

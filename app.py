@@ -6,6 +6,10 @@ import uuid
 
 app = Flask(__name__)
 
+@app.route('/)
+def index():
+    return 'Welcome to the Dev API!'
+
 @app.route('/baidcheck/<baid>', methods=['GET'])
 def baidcheck(baid):
     

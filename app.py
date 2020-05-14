@@ -6,7 +6,7 @@ import uuid
 
 app = Flask(__name__)
 
-@app.route('/)
+@app.route('/')
 def index():
     return 'Welcome to the Dev API!'
 
